@@ -1,0 +1,257 @@
+body {
+  margin: 0px;
+}
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+section {
+  margin-top: -116px;
+}
+ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0px;
+}
+a {
+  display: inline-block;
+}
+header {
+  height: 135px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  align-items: center;
+}
+.column-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.column-header img {
+  width: 140px;
+  height: 100px;
+}
+.column-header1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+.row-header {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  font-style: italic;
+  font-weight: bold;
+}
+.row-header1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 400px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 33px;
+}
+nav {
+}
+
+.nav-item {
+  padding: 14px;
+  position: relative;
+}
+.nav-item:hover {
+  background: black;
+  color: azure;
+  border-radius: 5px;
+}
+.nav-item:hover .di {
+  display: block;
+}
+
+.icons {
+  padding-right: 17px;
+  margin-top: 10px;
+}
+span {
+  font-family: monospace;
+  font-size: large;
+}
+
+.icons img {
+  width: 16px;
+  height: 14px;
+  margin-left: 6px;
+}
+.us {
+  margin-left: 0px;
+}
+
+.fa-phone,
+.fa-envelope {
+  font-size: small;
+  margin: 5px;
+}
+
+.circle {
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 6px 6px 0px #00000033;
+}
+
+main {
+  height: 2500px;
+  background: whitesmoke;
+}
+#slider {
+  width: 70px;
+  height: 900px;
+  position: relative;
+}
+#slider img {
+  width: 1265px;
+  height: 800px;
+}
+.next {
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px 8px 8px 8px;
+  font-size: larger;
+  border: 1px solid black;
+  color: #121111;
+  background-color: darkgrey;
+}
+.previouse {
+  position: absolute;
+  top: 45%;
+  left: 1205px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px 8px 8px 8px;
+  font-size: larger;
+  border: 1px solid black;
+  color: #121111;
+  background-color: darkgrey;
+}
+.previouse:hover {
+  background: #121111;
+  color: greenyellow;
+}
+.next:hover {
+  background: #121111;
+  color: greenyellow;
+}
+
+.title{
+  width: 490px;
+  height: 82px;
+  background-color: #03030321;
+  position: absolute;
+  color: #1356098a;
+  top: -1%;
+  left: 603px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+  text-align: center;
+  border-radius: 28px;
+  font-family: cursive;
+}
+.title2 {
+  width: 270px;
+  height: 79px;
+  background-color: #03030326;
+  position: absolute;
+  color: #48064491;
+  /* z-index: 22; */
+  top: 9.5%;
+  left: 546pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+  text-align: center;
+  border-radius: 28px;
+  font-family: cursive;
+}
+.title3{
+  width: 235pt;
+  height: 79px;
+  background-color: #03030326;
+  position: absolute;
+  color: #06022e91;
+  top: 20%;
+  left: 620pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+  text-align: center;
+  border-radius: 28px;
+  font-family: cursive;
+}
+.part {
+  display: flex;
+  width: 100%;
+  height: 360px;
+  background: whitesmoke;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 5px 3px #80808029;
+}
+.context {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0px 96px;
+  font-size: x-large;
+  
+}
+p {
+  font-size: larger;
+  font-family: cursive;
+  font-style: italic;
+  padding: 0px 188px;
+  margin-top: -83px;
+}
+.aa {
+  padding: 11px 15px;
+  background: #121111;
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 598px;
+}
+.aa:hover {
+  background: rgba(84, 82, 204, 0.897);
+  color: rgba(3, 3, 3, 0.329);
+}
+.part1{
+width: 100%;
+height: 500px;
+background: rgb(231, 225, 225);
+padding-top: 70px;
+
+
+
+
+}
+footer {
+  height: 160px;
+  background: black;
+}
