@@ -12,6 +12,9 @@ ul {
 }
 a {
   display: inline-block;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
 }
 header {
   height: 135px;
@@ -291,6 +294,7 @@ h1{
   font-size: x-large;
   font-family: initial;
   color: limegreen;
+  padding: 0px 10px;
 }
 .head{
   background: #dedcdc;
@@ -331,9 +335,23 @@ h1{
   color: #35c235;
   position: absolute;
   z-index: 200;
-  top: 18px;
-  left: 68px;
- 
+  
+}
+#star1{
+  top: 19px;
+  left: 84px;
+}
+#star2{
+  top: 19px;
+  left: 122px;
+}
+#star3{
+  top: 19px;
+  left: 78px;
+}
+#star4{
+  top: 19px;
+  left: 86px;
 }
 .cil{
   width: 70px;
@@ -344,9 +362,7 @@ h1{
   box-shadow: 0px 0px 8px 1px #151414c7;
 
 }
-.star{
-  text-align: center;
-}
+
 .ll{
 padding: 0px 50px;
 position: relative;
