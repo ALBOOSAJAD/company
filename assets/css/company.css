@@ -107,7 +107,7 @@ span {
 
 main {
   height: 2500px;
-  background: #dedcdc;
+  background: white;
 }
 #slider {
   width: 100%;
@@ -210,7 +210,7 @@ main {
   
 }
 .context {
-text-align: center;
+  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-style: italic;
@@ -368,7 +368,7 @@ h1{
 .ll{
 padding: 0px 50px;
 position: relative;
-border-bottom: 3px solid grgb(38, 39, 38)
+border-bottom: 2px solid rgb(241, 239, 239);
 }
 .ll:hover{
   border-bottom: 3px solid black;
@@ -397,6 +397,14 @@ h4{
   color: #35c235;
   padding: 0px 10px;
 }
+.line{
+  margin: 8px 0px;
+}
+
+
+
+
+
 footer {
   height: 160px;
   background: black;
