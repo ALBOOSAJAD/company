@@ -106,7 +106,7 @@ span {
 }
 
 main {
-  height: 3500px;
+  height: 5500px;
   background: white;
 }
 #slider {
@@ -121,25 +121,25 @@ main {
   position: absolute;
   top: 45%;
   right: 10px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 8px 8px 8px 8px;
   font-size: larger;
-  border: 1px solid black;
+  border: none;
   color: #121111;
-  background-color: darkgrey;
+  background-color: #00000036;
 }
 .previouse {
   position: absolute;
   top: 45%;
   left: 10px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 8px 8px 8px 8px;
   font-size: larger;
-  border: 1px solid black;
+  border: none;
   color: #121111;
-  background-color: darkgrey;
+  background-color: #00000036;
 }
 .previouse:hover {
   background: #121111;
@@ -321,7 +321,7 @@ width: 80%;
 }
 .row3{
   background: white;
-  height: 172px;
+  height: 142px;
   text-align: center;
   display: flex;
   align-items: flex-end;
@@ -335,11 +335,10 @@ width: 80%;
   color: #35c235;
   position: absolute;
   z-index: 200;
-  
 }
 #star1{
   top: 19px;
-  left: 84px;
+  left: 82px;
 }
 #star2{
   top: 19px;
@@ -360,7 +359,6 @@ width: 80%;
   background: rgb(245 245 245);
   border: 0px solid black;
   box-shadow: 0px 0px 8px 1px #151414c7;
-
 }
 .box{
   padding: 0px 20px;
@@ -418,7 +416,6 @@ width: 100%;
   width: 88%;
   border: 3px solid black;
 }
-
 .roww{
   display: flex;
   padding: 0px 20px;
@@ -444,20 +441,47 @@ width: 100%;
 }
 .h1{
   padding: 10px 20px;
-
-
 }
 .boxx{
   background: #f4f3f3;
   padding: 6px 40px;
-  margin: 24px 0px;
-  
+  margin: 24px 0px; 
 }
 .ppp{
   padding: 0px 36px;
 }
-
-
+.container1{
+  padding: 15px 25px;
+  margin: 0px 20px;
+  height: 180px;
+  width: 95%;
+}
+#im{
+  border-bottom: 2px solid black;
+}
+#star6{
+  top: 19px;
+  left: 103px;
+}
+#star7{
+  top: 19px;
+  left: 92px;
+}
+#star8{
+  top: 19px;
+  left: 80px;
+}
+.col-1{
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  color: gray;
+  
+}
+.office{
+  color: black;
+  padding: 25px;
+}
 footer {
   height: 160px;
   background: black;
